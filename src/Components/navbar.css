@@ -1,0 +1,32 @@
+.navbar{
+    font-size: 2.4vw;
+}
+
+.navbar-brand{
+    font-size: 3vw;
+}
+
+.navbar input{
+    font-size: 2vw;
+}
+
+.signout-btn{
+    font-size: 2.1vw;
+}
+
+@media (max-width: 985px) { 
+    .navbar{
+    font-size: 4vw;
+}
+.navbar-brand{
+    font-size: 5vw;
+}
+
+.navbar input{
+    font-size: 3vw;
+}
+.signout-btn{
+    font-size: 3vw;
+}
+
+}
