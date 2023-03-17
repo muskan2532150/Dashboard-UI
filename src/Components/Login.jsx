@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
+import './login.css';
 
 const Login = () => {
   return (
-    <div>
+    <div className=' bg-black text-white mx-auto login-page p-2 rounded'>
+        <h1 className='text-center p-2'>Welcome back</h1>
     <form className="px-4 py-3">
       <div className="mb-3">
-        <label htmlFor="exampleDropdownFormEmail1" className="form-label">Email address</label>
-        <input type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com"/>
+        <input type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Email"/>
       </div>
       <div className="mb-3">
-        <label htmlFor="exampleDropdownFormPassword1" className="form-label">Password</label>
         <input type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Password"/>
       </div>
       <div className="mb-3">
@@ -20,11 +20,9 @@ const Login = () => {
           </label>
         </div>
       </div>
-      <button type="submit" className="btn btn-primary">Sign in</button>
+      <button type="submit" className="btn btn-primary">Login</button>
     </form>
-    <div className="dropdown-divider"></div>
-    <a className="dropdown-item" href="#">New around here? Sign up</a>
-    <a className="dropdown-item" href="#">Forgot password?</a>
+    <a className="dropdown-item px-4 py-2" href="#">Sign up?</a>
   </div>
   )
 }
